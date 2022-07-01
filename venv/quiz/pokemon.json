@@ -1,0 +1,54 @@
+{
+    "preguntas":[
+        {
+            "pregunta": "¿Cuál de los siguientes Pokémon no es tipo Dragón?",
+            "respuestas": ["Charizard"],
+            "alternativas": ["Dragonite", "Rayquaza", "Dragapult"]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes es uno de los tipos de Toxicroak?",
+            "respuestas": ["Lucha", "Veneno"],
+            "alternativas": ["Planta", "Siniestro", "Bicho"]
+        },
+        {
+            "pregunta": "¿Con qúe incienso se debe usar para que de un huevo de Snorlax nazca un Munchlax?",
+            "respuestas": ["Incienso Lento"],
+            "alternativas": ["Incienso Duplo", "Incienso Floral", "Incienso Suave"]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes habilidades puede tener un Incineroar?",
+            "respuestas": ["Intimidación", "Mar de Llamas"],
+            "alternativas": ["Poder Solar", "Sequía", "Líbero"]
+        },
+        {
+            "pregunta": "¿Qué item puede portar un Pokémon en combate para incrementar en un 30% el daño realizado a cambio de un 10 de sus PS?",
+            "respuestas": ["Vidasfera"],
+            "alternativas": ["Banda Focus", "Chaleco Asalto", "Banda Focus"]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes Pokémon puede tener la habilidad Bromista?",
+            "respuestas": ["Grimmsnarl", "Thundurus"],
+            "alternativas": ["Calyrex-SR", "Regieleki", "Gastrodon", "Porygon2"]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes movimientos NO aprende Palkia?",
+            "respuestas": ["Psicocolmillo", "Voltio Cruel"],
+            "alternativas": ["Lanzallamas", "Trueno", "Cometa Draco", "Tierra Viva"]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes movimientos es exclusivo de Solgaleo?",
+            "respuestas": ["Meteoimpacto"],
+            "alternativas": ["Corte Vacio", "Ala Mortífera", "Filo del Abismo"]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes Pokémon es un Ultra Ente?",
+            "respuestas": ["Kartana"],
+            "alternativas": ["Landorus", "Terrakion", "Eternatus"]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes objetos que equipado a un Pokémon aumenta su Defensa Especial un 50% pero no permite usar movimientos de estado?",
+            "respuestas": ["Chaleco Asalto"],
+            "alternativas": ["Cinta Elegida", "Hierba Blanca", "Restos"]
+        }
+    ]
+}
