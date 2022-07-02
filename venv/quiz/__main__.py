@@ -1,33 +1,17 @@
-from termcolor import cprint
-from quiz.funciones import obtener_preguntas, preguntar
+from termcolor import cprint, colored
+from quiz.funciones import obtener_preguntas, preguntar, quiz, validar
 
-total_preguntas = 5
+valida = False
+cprint('\nBienvenido/a!!!\n', 'green', attrs=['bold', 'blink'])
 
-def quiz():
-    cprint('Bienvenido/a!!!\n', 'green', 'on_yellow', attrs=['bold'])
+print("Ingrese la cantidad de preguntas a responder [entre 1 y 10]: ", end='')
+
+while not valida:
+    total_preguntas = input()
+    valida = validar(total_preguntas)
     
-    preguntas = obtener_preguntas(total_preguntas)
-    cant_correctas = 0
-    
-    for num, pregunta in enumerate(preguntas, 1):
-        print(f'Pregunta N° {num}:')
-        cant_correctas += preguntar(pregunta)
-    
-    color = ''
-    mensaje = ''
-    plural = ''
-    
-    if cant_correctas > 1:
-        plural = 's'
-        
-    if cant_correctas / num >= 0.5:
-        color = 'green'
-        mensaje = 'Felicitaciones'
-    else:
-        color = 'red'
-        mensaje = 'Lastima'
-        
-    cprint(f"{mensaje}, obtuviste {cant_correctas} respuesta{plural} correcta{plural} de un total de {num} preguntas.", color)
+    if not valida:
+        print(colored('Lo siento, el valor no es válido', 'red'), 'vuelva a intentarlo: ', end='')
 
 if __name__ == "__main__":
-    quiz()
+    quiz(int(total_preguntas))
