@@ -1,6 +1,7 @@
 from string import ascii_lowercase
 import json
 import random
+from termcolor import colored
 
 def obtener_preguntas(total_preguntas):
     with open('quiz\pokemon.json', encoding='utf-8') as fh:
@@ -20,10 +21,10 @@ def preguntar(pregunta):
     )
 
     if respuesta in respuestas_correctas:
-        print('Correcto')
+        print(colored('¡¡¡Respuesta Correcta!!!', 'green'))
         return 1
     else:
-        print(f"Incorrecto: la respuesta es {', '.join(respuestas_correctas)}")
+        print(colored("Respuesta Incorrecta: la respuesta correcta es", 'red'), colored(f"{' o '.join(respuestas_correctas)}", 'blue'))
         return 0
         
 def obtener_respuesta(pregunta, alternativas):

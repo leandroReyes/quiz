@@ -21,7 +21,7 @@
             "alternativas": ["Poder Solar", "Sequía", "Líbero"]
         },
         {
-            "pregunta": "¿Qué item puede portar un Pokémon en combate para incrementar en un 30% el daño realizado a cambio de un 10 de sus PS?",
+            "pregunta": "¿Qué item puede portar un Pokémon en combate para incrementar en un 30% el daño realizado a cambio de un 10% de sus PS máximos?",
             "respuestas": ["Vidasfera"],
             "alternativas": ["Banda Focus", "Chaleco Asalto", "Banda Focus"]
         },
